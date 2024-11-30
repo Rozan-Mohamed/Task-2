@@ -1,0 +1,90 @@
+body {  
+    margin: 0;  
+    padding: 150px;  
+}  
+.icon {  
+    font-size: 40px;  
+    padding: 25px;
+} 
+
+h2{
+    display:inline;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    padding: 25px;
+    font-size: 30px;  
+    margin: 15px 0; 
+}
+
+p { 
+    font-family: 'Poppins';
+    padding: 25px;
+    font-size: 20px;  
+    color:white;  
+} 
+
+.container {  
+    float: left;
+    display: flex;  
+    justify-content: center; 
+    height: 450px;
+} 
+
+.sedans{
+    background-color: #E28525;
+}
+
+.suvs{
+    background-color: #016972;
+}
+
+.luxury{
+    background-color:#00403F;
+}
+ 
+.card {
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
+    padding: 20px;
+}
+
+.learn-more-sedans {  
+    background-color: white;  
+    border: none;  
+    color:#E28525;  
+    padding: 10px 15px;  
+    border-radius: 20px;  
+    cursor: pointer;  
+    font-size: 18px;                  
+}  
+
+.learn-more-suvs {  
+    background-color: white;  
+    border: none;  
+    color:#016972;  
+    padding: 10px 15px;  
+    border-radius: 20px;  
+    cursor: pointer;  
+    font-size: 18px;  
+}  
+
+.learn-more-luxury{  
+    background-color: white;  
+    border: none;  
+    color:#00403F;  
+    padding: 10px 15px;  
+    border-radius: 20px;  
+    cursor: pointer;  
+    font-size: 18px;  
+}  
+
+.learn-more-sedans:hover {  
+    background-color: black;  
+}  
+.learn-more-suvs:hover {  
+    background-color: black;   
+}  
+.learn-more-luxury:hover {  
+    background-color: black; 
+}  
